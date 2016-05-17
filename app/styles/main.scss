@@ -15,6 +15,12 @@ $icon-font-path: '../fonts/';
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: "nimbus-sans",sans-serif;
+  background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/worn_dots.png");
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "etica-display",sans-serif;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
