@@ -1,0 +1,42 @@
+.italic {
+  font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+p{
+	text-align: justify;
+}
+a.inner-link {
+    padding: 2em;
+    display: block;
+    border: 1px solid #286090;
+    color: #286090;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    margin-bottom: .5em;
+    text-align: left;
+    border-radius: 5px;
+}
+.marketing ul, .marketing ul li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a.inner-link:hover {
+    background-color: #286090;
+    color: white;
+    text-align: center;
+}
+
+a.inner-link{
+ text-align: center;
+ font-size: 18px;
+}
+
