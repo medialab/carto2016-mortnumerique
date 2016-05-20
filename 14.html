@@ -28,7 +28,7 @@
         <img class="img" src="images/skype.png" style="opacity: 0">
       </div>
 
-      <div class="header" style="width:100%;font-size:60px;">
+      <div class="header hide" style="width:100%;font-size:60px;">
       <p>Vous venez de manquer un appel skype émis depuis le compte de Julie… Comment est-ce possible?</p>
       </div>
 
@@ -99,7 +99,7 @@
                         $(this).animate({opacity: 1}, 1000, function () {
                           $(this).animate({opacity: 0}, 1000, function() {
                             $('article').removeClass('hide');
-                            $('.jumbotron').removeClass('hide');
+                            $('.header').removeClass('hide');
                             $('.marketing').removeClass('hide');
                           });
                         });
